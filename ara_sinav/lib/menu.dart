@@ -14,247 +14,242 @@ class Menu extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   SafeArea(
-                      child: Padding(
-                        padding: const EdgeInsets.all(5.0),
-                        child: Container(
-                          height: 200,
+                      child: Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 100,
 
-                          width: screenWidth,
-                          decoration: BoxDecoration(
-                              boxShadow: <BoxShadow>[
-                                BoxShadow(
-                                    color: Colors.black54,
-                                    blurRadius: 15.0,
-                                    offset: Offset(0.0, 0.75))
-                              ],
-                              color: Colors.white,
-                              border: Border.all(
-                                color: Colors.black,
-                              ),
-                              borderRadius: BorderRadius.all(Radius.circular(20))),
-                          child: Row(
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                  child: Image.asset(
-                                    'images/danalokum.jpg',
-                                    height: 250.0,
-                                    width: 250.0,
+                            width: screenWidth,
+                            decoration: BoxDecoration(
+                                boxShadow: <BoxShadow>[
+                                  BoxShadow(
+                                      color: Colors.black54,
+                                      blurRadius: 15.0,
+                                      offset: Offset(0.0, 0.75))
+                                ],
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.black,
+                                ),
+                                borderRadius: BorderRadius.all(Radius.circular(20))),
+                            child: Row(
+                              children: <Widget>[
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(20.0),
+                                    child: Image.asset(
+                                      'images/danalokum.jpg',
+                                      height: 100.0,
+                                      width: 100.0,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                                child: Center(
-                                  child: Column(children: <Widget>[
-                                    Padding(
-                                      padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                                      child: Text('Dana Lokum', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Card(
+                                    color: Colors.white,
+                                    margin: EdgeInsets.fromLTRB(5,20,20,20),
+                                    child: Center(
+                                      child: Text('Dana Lokum...........100₺'),
                                     ),
-                                    SizedBox(height: 20,),
-                                    Text('100₺', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black)),
-                                  ],),
+                                  ),
                                 ),
-                              )
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       )),
                   SafeArea(
-                      child: Padding(
-                        padding: const EdgeInsets.all(5.0),
-                        child: Container(
-                          height: 200,
+                      child: Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 100,
 
-                          width: screenWidth,
-                          decoration: BoxDecoration(
-                              boxShadow: <BoxShadow>[
-                                BoxShadow(
-                                    color: Colors.black54,
-                                    blurRadius: 15.0,
-                                    offset: Offset(0.0, 0.75))
-                              ],
-                              color: Colors.white,
-                              border: Border.all(
-                                color: Colors.black,
-                              ),
-                              borderRadius: BorderRadius.all(Radius.circular(20))),
-                          child: Row(
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                  child: Image.asset(
-                                    'images/kuzukafes.jpg',
-                                    height: 250.0,
-                                    width: 250.0,
+                            width: screenWidth,
+                            decoration: BoxDecoration(
+                                boxShadow: <BoxShadow>[
+                                  BoxShadow(
+                                      color: Colors.black54,
+                                      blurRadius: 15.0,
+                                      offset: Offset(0.0, 0.75))
+                                ],
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.black,
+                                ),
+                                borderRadius: BorderRadius.all(Radius.circular(20))),
+                            child: Row(
+                              children: <Widget>[
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(20.0),
+                                    child: Image.asset(
+                                      'images/kuzukafes.jpg',
+                                      height: 100.0,
+                                      width: 100.0,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                                child: Center(
-                                  child: Column(children: <Widget>[
-                                    Padding(
-                                      padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                                      child: Text('Kuzu Kafes', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Card(
+                                    color: Colors.white,
+                                    margin: EdgeInsets.fromLTRB(5,20,20,20),
+                                    child: Center(
+                                      child: Text('Kuzu Kafes...........500₺'),
                                     ),
-                                    SizedBox(height: 20,),
-                                    Text('500₺', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black)),
-                                  ],),
+                                  ),
                                 ),
-                              )
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       )),
                   SafeArea(
-                      child: Padding(
-                        padding: const EdgeInsets.all(5.0),
-                        child: Container(
-                          height: 200,
+                      child: Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 100,
 
-                          width: screenWidth,
-                          decoration: BoxDecoration(
-                              boxShadow: <BoxShadow>[
-                                BoxShadow(
-                                    color: Colors.black54,
-                                    blurRadius: 15.0,
-                                    offset: Offset(0.0, 0.75))
-                              ],
-                              color: Colors.white,
-                              border: Border.all(
-                                color: Colors.black,
-                              ),
-                              borderRadius: BorderRadius.all(Radius.circular(20))),
-                          child: Row(
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                  child: Image.asset(
-                                    'images/kaanetburger.jpg',
-                                    height: 250.0,
-                                    width: 250.0,
+                            width: screenWidth,
+                            decoration: BoxDecoration(
+                                boxShadow: <BoxShadow>[
+                                  BoxShadow(
+                                      color: Colors.black54,
+                                      blurRadius: 15.0,
+                                      offset: Offset(0.0, 0.75))
+                                ],
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.black,
+                                ),
+                                borderRadius: BorderRadius.all(Radius.circular(20))),
+                            child: Row(
+                              children: <Widget>[
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(20.0),
+                                    child: Image.asset(
+                                      'images/kaanetburger.jpg',
+                                      height: 100.0,
+                                      width: 100.0,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                                child: Center(
-                                  child: Column(children: <Widget>[
-                                    Padding(
-                                      padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                                      child: Text('Kaan-Et Burger', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Card(
+                                    color: Colors.white,
+                                    margin: EdgeInsets.fromLTRB(5,20,20,20),
+                                    child: Center(
+                                      child: Text('Kaan-Et Burger.......100₺'),
                                     ),
-                                    SizedBox(height: 20,),
-                                    Text('50₺', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black)),
-                                  ],),
+                                  ),
                                 ),
-                              )
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       )),
                   SafeArea(
-                      child: Padding(
-                        padding: const EdgeInsets.all(5.0),
-                        child: Container(
-                          height: 200,
+                      child: Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 100,
 
-                          width: screenWidth,
-                          decoration: BoxDecoration(
-                              boxShadow: <BoxShadow>[
-                                BoxShadow(
-                                    color: Colors.black54,
-                                    blurRadius: 15.0,
-                                    offset: Offset(0.0, 0.75))
-                              ],
-                              color: Colors.white,
-                              border: Border.all(
-                                color: Colors.black,
-                              ),
-                              borderRadius: BorderRadius.all(Radius.circular(20))),
-                          child: Row(
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                  child: Image.asset(
-                                    'images/kasapkofte.jpg',
-                                    height: 250.0,
-                                    width: 250.0,
+                            width: screenWidth,
+                            decoration: BoxDecoration(
+                                boxShadow: <BoxShadow>[
+                                  BoxShadow(
+                                      color: Colors.black54,
+                                      blurRadius: 15.0,
+                                      offset: Offset(0.0, 0.75))
+                                ],
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.black,
+                                ),
+                                borderRadius: BorderRadius.all(Radius.circular(20))),
+                            child: Row(
+                              children: <Widget>[
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(20.0),
+                                    child: Image.asset(
+                                      'images/kasapkofte.jpg',
+                                      height: 100.0,
+                                      width: 100.0,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                                child: Center(
-                                  child: Column(children: <Widget>[
-                                    Padding(
-                                      padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                                      child: Text('Kasap Köfte', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Card(
+                                    color: Colors.white,
+                                    margin: EdgeInsets.fromLTRB(5,20,20,20),
+                                    child: Center(
+                                      child: Text('Kasap Köfte........100₺'),
                                     ),
-                                    SizedBox(height: 20,),
-                                    Text('40₺', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black)),
-                                  ],),
+                                  ),
                                 ),
-                              )
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       )),
                   SafeArea(
-                      child: Padding(
-                        padding: const EdgeInsets.all(5.0),
-                        child: Container(
-                          height: 200,
+                      child: Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.all(5.0),
+                          child: Container(
+                            height: 100,
 
-                          width: screenWidth,
-                          decoration: BoxDecoration(
-                              boxShadow: <BoxShadow>[
-                                BoxShadow(
-                                    color: Colors.black54,
-                                    blurRadius: 15.0,
-                                    offset: Offset(0.0, 0.75))
-                              ],
-                              color: Colors.white,
-                              border: Border.all(
-                                color: Colors.black,
-                              ),
-                              borderRadius: BorderRadius.all(Radius.circular(20))),
-                          child: Row(
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                  child: Image.asset(
-                                    'images/sezarsalata.jpg',
-                                    height: 250.0,
-                                    width: 250.0,
+                            width: screenWidth,
+                            decoration: BoxDecoration(
+                                boxShadow: <BoxShadow>[
+                                  BoxShadow(
+                                      color: Colors.black54,
+                                      blurRadius: 15.0,
+                                      offset: Offset(0.0, 0.75))
+                                ],
+                                color: Colors.white,
+                                border: Border.all(
+                                  color: Colors.black,
+                                ),
+                                borderRadius: BorderRadius.all(Radius.circular(20))),
+                            child: Row(
+                              children: <Widget>[
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(20.0),
+                                    child: Image.asset(
+                                      'images/sezarsalata.jpg',
+                                      height: 100.0,
+                                      width: 100.0,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                                child: Center(
-                                  child: Column(children: <Widget>[
-                                    Padding(
-                                      padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                                      child: Text('Sezar Salata', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Card(
+                                    color: Colors.white,
+                                    margin: EdgeInsets.fromLTRB(5,20,20,20),
+                                    child: Center(
+                                      child: Text('Sezar Salata........100₺'),
                                     ),
-                                    SizedBox(height: 20,),
-                                    Text('30₺', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black)),
-                                  ],),
+                                  ),
                                 ),
-                              )
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       )),
